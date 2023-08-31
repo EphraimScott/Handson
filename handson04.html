@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanson IV</title>
+</head>
+<body>
+    
+    Idade <input text="text" id="idade">
+    <button onclick="validaidade()">Verificar</button>
+
+    <script>
+        function validaidade(){
+            var idade = document.getElementById("idade").value;
+            if(idade >= 18){
+                alert("MAIOR DE IDADE!")
+            }else {
+                alert("MENOR DE IDADE!!!!")
+            }
+        }
+    </script>
+
+</body>
+</html>

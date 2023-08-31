@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handson V</title>
+</head>
+<body>
+    
+    <h1 style="font-style: italic;">HANDSON V</h1>
+    
+    Positivo, negativo ou nulo?
+    <br>
+    <input num="num" id="verify">
+    <button onclick="idnum()">Verificar</button>
+
+    <script>
+        function idnum(){
+            var verify = document.getElementById("verify").value;
+
+            if(verify >= 0){
+                alert ("POSITIVOOOOO!!!")
+
+            }else if(verify <= 0){
+                alert("NEGATIVOOOOOO!!!")
+
+            }else{
+                alert("NULOOOOOOOOOOO!!!")
+            }
+        }
+    </script>
+
+</body>
+</html>
